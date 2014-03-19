@@ -1,0 +1,26 @@
+@charset "utf-8";
+p{overflow:hidden;width:230px;word-wrap: break-word; }
+.index-content{background-color:#ffffff;border:1px solid #DDDDDD;padding:12px 0px}
+/* container */
+li{list-style: none outside none;}
+.container-wrap{ padding:0px !important;}
+.container-title{ padding:0px 10px; font-size:16px; line-height:47px; background-color:#f9f9f9; border-bottom:1px solid #d1d1d1; height:47px;}
+#container{position:relative;margin:0 auto;}
+.grid{padding-bottom: 5px;max-width:226px;background:#fff;font-size:12px;float:left;box-shadow: 0 1px 3px rgba(34,25,25,0.4);-webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4);-webkit-transition: top 1s ease, left 1s ease; }
+.grid imgholder { width:100%; text-align:center;}
+.grid .imgholder img{max-width:226px;background:#ccc;display:block; border:1px solid #fff;}
+.grid .texthodler{ position:relative; /*padding-left:25px;*/}
+.grid .texthodler .icon-span{ display:inline-block; text-align:center; height:20px; width:20px; color:#fff; font-size:14px; line-height:20px; position:absolute; left:3px; top:3px; display:none;}
+.grid .texthodler .new{ background-color:#19ac5b;}
+.grid .texthodler .low{ background-color:#db3825;}
+.grid .texthodler .main_title{ position:relative; line-height:20px; font-size:13px; color:#333;}
+/*.grid .texthodler .main_title:after {content: "\02026";width: 3em;height: 20px;line-height: 10px;margin-left: -3em;padding-right: 5px;text-align: right;position:absolute;top:0px;right:0;font-weight: 700;background-color: #fff;background: -webkit-gradient(linear, left top, right top,from(rgba(255, 255, 255, 0)), to(white), color-stop(50%, white));background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);}*/
+.grid .texthodler ul{padding:5px;}
+.grid .texthodler .title{ font-size:12px;line-height:1.2; padding-top:2px; color:#666;}
+.grid .texthodler .price{ font-size:14px; text-align:right; color:#db3825; font-weight:bold; display:none;}
+.likes {cursor: pointer;height: 22px;line-height: 22px;}
+.likes .likes_status {margin-left: 2px;background-color: #FF74A1;border: 1px solid #FA5B90;border-radius: 2px;color: #FFFFFF;float: left;font-weight: normal;height: 20px;line-height: 15px;margin-right: 6px;text-align: center;width: 50px;}
+.red_f {color: #FF6699;}
+.pl {color: #999999;margin-left: 50px;}
+.lm_love2 {background: url("http://i.meilishuo.net/css/images/header/mls_global140311.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);height: 12px; background-position: -53px -256px;padding: 0 5px 0 6px;}

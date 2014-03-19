@@ -1,0 +1,43 @@
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=300&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=Foodi&funtype=5300&confirmdate=2 
+null data !fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=Foodi&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=2&keyword=3200&funtype=5300&confirmdate=2 
+null data !fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=2&keyword=3200&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=Trade&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=Trade&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=New&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=support&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=support&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=Logistic&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=2&keyword=Release&funtype=5300&confirmdate=2 
+null data !fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=2&keyword=Editor&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=4&keyword=1700&funtype=5300&confirmdate=2 
+null data !fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=4&keyword=1700&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=CX&funtype=5300&confirmdate=2 
+null data !fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=CX&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=102&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=5&keyword=ASSISTANT&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=5&keyword=ASSISTANT&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=3&keyword=4S&funtype=5300&confirmdate=2 
+null data !fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=3&keyword=4S&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=KPO&funtype=5300&confirmdate=2 
+null data !fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=KPO&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=5&keyword=14&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=5&keyword=14&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=4&keyword=Purchase&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=4&keyword=Purchase&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=TSR&funtype=5300&confirmdate=2 
+null data !fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=TSR&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=3&keyword=220&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=3&keyword=220&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=45&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=45&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=00&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=1&keyword=00&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=5&keyword=1600&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=2&keyword=300&funtype=5300&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=2&keyword=300&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=2&keyword=Foodi&funtype=5300&confirmdate=2 
+null data !fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=2&keyword=Foodi&funtype=0000&confirmdate=2 
+fetch url http://search.51job.com/jobsearch/search_result.php?curr_page=2&keyword=CX&funtype=5300&confirmdate=2 
+null data !stop fetch 

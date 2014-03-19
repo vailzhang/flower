@@ -1,0 +1,23 @@
+insert data : 销售经理
+insert data : 急聘团购销售
+skip repeat data
+insert data : 九州地产-诚聘-商业顾问
+insert data : 销售代表
+insert data : 兼职店务员
+skip repeat data
+insert data : 网络推广专员
+insert data : Foodi店长助理(职位编号：002)
+insert data : 海德堡CX102 5色机机长 急聘
+
+Notice: Undefined offset: 2 in /data/web/m_youhuo/app/spider/51job.php on line 256
+insert data : 全盘会计(包含行政工作)
+insert data : Sales Executive(freelance)
+skip repeat data
+insert data : Senior Merchandiser - Apparel/Footwear/Accessories
+insert data : Sales Executive(freelance)
+skip repeat data
+insert data : 诚聘兼职打包人员（人数不限）
+insert data : 幕墙设计师(职位编号：xs02)
+insert data : 单证员实习生（Intern）
+skip repeat data
+stop parserInnerUrl 
