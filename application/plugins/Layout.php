@@ -1,4 +1,7 @@
 <?php
+/*
+ * 渲染layout为主视图
+ */
 class LayoutPlugin extends Yaf_Plugin_Abstract {
 
     private $_layoutDir;
@@ -6,12 +9,12 @@ class LayoutPlugin extends Yaf_Plugin_Abstract {
     private $_layoutVars =array();
 
     public function __construct($layoutFile, $layoutDir=null){
-        $this->_layoutFile = $layoutFile;
-        $this->_layoutDir = ($layoutDir) ? $layoutDir : APP_PATH.'views/';
+    	$this->_layoutFile = $layoutFile;
+    	$this->_layoutDir = ($layoutDir) ? $layoutDir : APP_PATH.'/application/views';
     }
 
     public function  __set($name, $value) {
-        $this->_layoutVars[$name] = $value;
+    	$this->_layoutVars[$name] = $value;
     }
 
     public function dispatchLoopShutdown ( Yaf_Request_Abstract $request , Yaf_Response_Abstract $response ){
@@ -23,19 +26,21 @@ class LayoutPlugin extends Yaf_Plugin_Abstract {
     }
 
     public function postDispatch ( Yaf_Request_Abstract $request , Yaf_Response_Abstract $response ){
-        /* get the body of the response */
-        $body = $response->getBody();
-
-        /*clear existing response*/
-        $response->clearBody();
-
-        /* wrap it in the layout */
-        $layout = new Yaf_View_Simple($this->_layoutDir);
-        $layout->content = $body;
-        $layout->assign('layout', $this->_layoutVars);
-
-        /* set the response to use the wrapped version of the content */
-        $response->setBody($layout->render($this->_layoutFile));
+    	if (!$request->isXmlHttpRequest()) {
+	    	/* get the body of the response */
+	    	$body = $response->getBody();
+	    	
+	    	/*clear existing response*/
+	    	$response->clearBody();
+	    	
+	    	/* wrap it in the layout */
+	    	$layout = new Yaf_View_Simple($this->_layoutDir);
+	    	$layout->content = $body;
+	    	$layout->assign('layout', $this->_layoutVars);
+	    	
+	    	/* set the response to use the wrapped version of the content */
+	    	$response->setBody($layout->render($this->_layoutFile));
+    	}
     }
 
     public function preDispatch ( Yaf_Request_Abstract $request , Yaf_Response_Abstract $response ){
@@ -47,7 +52,9 @@ class LayoutPlugin extends Yaf_Plugin_Abstract {
     }
 
     public function routerShutdown ( Yaf_Request_Abstract $request , Yaf_Response_Abstract $response ){
-
+//     	$router = Yaf_Dispatcher::getInstance()->getRouter()->getCurrentRoute();
+// 		$params = Yaf_Dispatcher::getInstance()->getRequest()->getParams() ;
+    	//var_dump($router);
     }
 
     public function routerStartup ( Yaf_Request_Abstract $request , Yaf_Response_Abstract $response ){

@@ -1,13 +1,48 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title><?php echo $this->layout['meta_title'];?></title>
-        <link rel="stylesheet" type="text/css" href="/css/screen.css" />
-        <script type="text/javascript" src="/js/main.js"></script>
-    </head>
-    <body>
-        <?php
-        echo $this->content;
-        ?>
-    </body>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>花店</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/common.css" rel="stylesheet">
+<link href="/css/index.css" rel="stylesheet">
+<script src="/bootstrap/js/jquery.min.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+<script src="/js/vform.js"></script>
+</head>
+<body>
+	<header class="navbar navbar-inverse bs-docs-nav" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse"
+					data-target=".bs-navbar-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a href="../" class="navbar-brand">阳阳花店</a>
+			</div>
+			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+				<ul class="nav navbar-nav">
+					<li><a href="../getting-started">首页</a></li>
+					<li class="active"><a href="../"> 玫瑰花</a></li>
+					<li><a href="../css"> 植物</a></li>
+					<li><a href="../css"> 鲜花</a></li>
+					<li><a href="../css"> 婚庆</a></li>
+					<!-- 																				
+					<li><a href="<?php //$this->url('user/login');?>">
+						<img src="http://www.qiyipic.com/common/fix/public_/images/srch_btn.png" alt="搜索" class="img-circle"></a>
+					</li>
+					 -->
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../about">关于</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<?php echo  $this->content;?>
+</body>
 </html>
