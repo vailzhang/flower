@@ -11,6 +11,7 @@ class IndexController extends Yaf_Controller_Abstract {
     	/*存取访问记录*/
     	$userAgent = new UserAgentModel();
     	$userAgent->insertUserAgent();
+		/*查询所有商品*/
 		$mySql = new Mysql();
 		$sql = 'select * from tbl_goods';
 		$result = $mySql->getRowsArray($sql);
